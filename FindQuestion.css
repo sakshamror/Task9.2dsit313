@@ -1,0 +1,119 @@
+/* Styles for the App container */
+.App {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Styles for the Questions List heading */
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Styles for the filter section */
+  .filter {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .filter input[type="text"],
+  .filter input[type="date"] {
+    width: 30%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  /* Styles for the card form */
+  .card-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .card-form input[type="text"] {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .card-form button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .card-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Styles for the card list */
+  .card-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    transition: box-shadow 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card h2 {
+    font-size: 18px;
+    margin: 0;
+    cursor: pointer;
+  }
+  
+  .expanded {
+    background-color: #f0f0f0;
+  }
+  
+  /* Styles for the delete button */
+  .card button {
+    padding: 5px 10px;
+    background-color: #ff4d4d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .card button:hover {
+    background-color: #ff0000;
+  }
+  .post-button {
+    margin-top: 20px;
+    /* Adjust the margin as needed */
+    background-color: #3a434e;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    width: 200px;
+
+    position: absolute;
+    bottom: 20px;
+    right: 100px;
+}

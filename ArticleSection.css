@@ -1,0 +1,141 @@
+.questionSection {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px;
+}
+
+.questionLabel {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: left;
+    background-color: rgb(228, 236, 236);
+}
+
+.input-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+
+.Title-label {
+    font-size: 18px;
+    padding-right: 10px;
+    /* Add some spacing between label and input */
+}
+
+.title-button {
+    font-size: 18px;
+    padding: 10px;
+    background-color: rgb(228, 236, 236);
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    margin: 10px 5px;
+    /* Increase top and bottom margin to add space */
+}
+
+#image {
+    display: none;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.title-input {
+    width: 1450px;
+
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+
+}
+
+.abstract-label {
+    font-size: 18px;
+    padding-right: 10px;
+    font-weight: bolder;
+}
+
+.abstract-text-label {
+    font-size: 18px;
+    padding-right: 10px;
+    font-weight: bolder;
+}
+
+.abstract-input {
+    width: 95%;
+    height: 50px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+    line-height: 1;
+}
+
+.abstract-text-input {
+    width: 95%;
+    height: 200px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+    line-height: 1;
+}
+
+.tags {
+    font-size: 18px;
+    padding-right: 10px;
+    font-weight: bolder;
+}
+
+.tags-input {
+    width: 1450px;
+
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+
+}
+
+.tags-area {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+/* QuestionSection.css */
+
+/* Your existing styles */
+
+.post-button {
+    margin-top: 20px;
+    /* Adjust the margin as needed */
+    background-color: #3a434e;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    width: 200px;
+
+    position: absolute;
+    bottom: 20px;
+    right: 100px;
+}

@@ -1,0 +1,79 @@
+/* src/components/plans.css */
+
+/* Container for the Plans */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:100px;
+  }
+  
+  /* Styling for individual plan boxes */
+  .plan {
+    display: flex; /* Add this property to display plans horizontally */
+    flex-direction: column;
+    border: 2px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    max-width: 300px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    height:300px;
+  }
+  
+  /* Styling for plan titles */
+  h2 {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  /* Styling for plan details */
+  p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  /* Styling for perks list */
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Styling for individual perks */
+  li {
+    font-size: 0.9rem;
+    color: #888;
+    margin: 5px 0;
+  }
+  
+  /* Styling for the "Select Premium" button */
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: auto; /* Push the button to the bottom */
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Styling for the Premium Plan page */
+  #premium-plan {
+    background-color: #f0f0f0;
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Additional styles can be added as needed */
+  

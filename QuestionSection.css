@@ -1,0 +1,116 @@
+.questionSection {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px;
+  }
+  
+  .questionLabel {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: left;
+    background-color: rgb(228, 236, 236);
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  
+  }
+  
+  .Title-label {
+    font-size: 18px;
+    padding-right: 10px;
+    font-weight: bolder;
+    /* Add some spacing between label and input */
+  }
+  
+  .title-input {
+    width: 1450px;
+  
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+  
+  }
+  
+  .problem-label {
+    font-size: 18px;
+    padding-right: 10px;
+    font-weight: bolder;
+    width:100%;
+  }
+  
+  .problem-input {
+    width: 100%;
+    height: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+    line-height: 1;
+  }
+  
+  .tags {
+    font-size: 18px;
+    padding-right: 10px;
+    font-weight: bolder;
+  }
+  
+  .tags-input {
+    width: 1450px;
+  
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+  
+  }
+  
+  .tags-area {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  
+  }
+  
+  /* QuestionSection.css */
+  
+  /* Your existing styles */
+  
+  .post-button {
+    margin-top: 20px;
+    /* Adjust the margin as needed */
+    background-color: #3a434e;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    width: 200px;
+   
+    align-self: flex-end;
+
+}
+  .new-post-button{
+    background-color: #3a434e;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    width: 200px;
+    align-items: end;
+    margin-left:1300px;
+  }
+  /* CSS for Markdown preview */
+.problem-input-container{
+  width:100%
+}
